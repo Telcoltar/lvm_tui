@@ -1,0 +1,16 @@
+.form_row {
+    height: auto;
+    margin: 1
+}
+
+.form_label {
+    height: 100%;
+    align: right middle;
+    width: 1fr;
+    margin: 0 5;
+}
+
+.form_input {
+    height: auto;
+    width: 2fr;
+}

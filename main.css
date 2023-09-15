@@ -1,0 +1,83 @@
+Screen {
+    layout: vertical;
+}
+
+#title {
+    background: green;
+    padding: 1 0;
+}
+
+#main {
+    height: 100%;
+    layout: vertical;
+}
+
+#options {
+    border: solid $secondary;
+    padding: 1 5;
+    height: 1fr;
+}
+
+#options > Grid {
+    grid-size: 2 3;
+}
+
+#data {
+    height: 5fr;
+    padding: 1 5;
+    border: solid $secondary;
+}
+
+AddLv {
+    align: center middle;
+}
+
+.modal_container {
+    align: center middle;
+}
+
+.container {
+    align: center middle;
+}
+
+.form_label {
+    height: 100%;
+}
+
+.form_input {
+    height: auto;
+}
+
+#dialog {
+    width: 45;
+    height: 30;
+    border: thick $secondary;
+    padding: 0 1;
+}
+
+.form_button {
+    width: 1fr;
+    margin: 0 1;
+}
+
+.horizontal_layout {
+    width: 100%;
+    height: auto;
+    margin: 1 0;
+}
+
+.error_input > SelectCurrent {
+    border: tall $error 60%;
+}
+
+Select.error_input:focus > SelectCurrent {
+    border: tall $error;
+}
+
+Select.-expanded.error_input > SelectCurrent {
+    border: tall $error;
+}
+
+.error_text {
+    color: $error;
+}

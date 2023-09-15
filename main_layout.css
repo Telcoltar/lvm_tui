@@ -1,0 +1,13 @@
+Screen {
+    layout: vertical;
+}
+
+#options {
+    border: solid $secondary;
+}
+
+Grid {
+    grid-size: 3 5;
+    align: center middle;
+    grid-gutter: 1 2;
+}
